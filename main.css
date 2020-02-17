@@ -15,9 +15,10 @@
   left: 100;
   background-color: white; /* Black */
   float: left;
+    
 }
 .content{
-    padding-left: 120px;
+    margin-left: 200;
 }
     header{
         padding-top: 0;  
@@ -54,3 +55,87 @@ img.cat{
     footer{
         text-align: center;
     }
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  color: black;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+a:link.sidenav, a:visited.sidnav {
+  background-color: orange;
+  color: black;
+    border-color: black;
+    border-style: solid;
+  padding: 10px 1px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 30;
+  margin-right: 30;
+}
+
